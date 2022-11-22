@@ -1,0 +1,39 @@
+body
+{
+    text-align: center;
+    background: linear-gradient(56deg,#0FA3B1,#F7A072,#FF9B42);
+    color: white;
+}
+h2
+{
+    color: darkslateblue;
+}
+.main
+{
+    min-height: 100vh;
+}
+#clr
+{
+    color: red;
+}
+input
+{
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 15px;
+    transition: 0.5s;
+}
+#btn
+{
+    height: 50px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 15px;
+    transition: .5s;
+}
+#btn:hover{
+    background-color: aquamarine;
+}
